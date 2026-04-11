@@ -32,7 +32,7 @@ Frame.Active = true
 Frame.Draggable = true -- Ativa o arrastar nativo (funciona em quase todos os executores)
 
 Title.Size = UDim2.new(1, 0, 0, 25)
-Title.Text = "XENO MOUSE TP"
+Title.Text = "INSTANTE TP"
 Title.BackgroundColor3 = Color3.fromRGB(60, 0, 180)
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.Font = Enum.Font.SourceSansBold
@@ -99,4 +99,4 @@ BindBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Notificação de carregamento
-print("Xeno Mouse TP carregado com sucesso!")
+print("INSTANTE TP carregado com sucesso!")
